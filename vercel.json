@@ -1,0 +1,12 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev -p 3007",
+  "installCommand": "npm install",
+  "regions": ["gru1"],
+  "functions": {
+    "src/app/api/review/route.ts": {
+      "maxDuration": 120
+    }
+  }
+}
